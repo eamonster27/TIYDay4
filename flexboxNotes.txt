@@ -1,0 +1,5 @@
+#1 Rule: for almost everything you apply the rules to the parent of the element, not the element itself.
+
+Best tool for vertical alignment.
+
+Google: flexbox in 5 minutes.

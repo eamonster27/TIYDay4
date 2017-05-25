@@ -1,0 +1,120 @@
+@font-face {
+	font-family: 'Slabo 27px';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Slabo 27px'), url(http://fonts.gstatic.com/s/slabo27px/v3/PuwvqkdbcqU-fCZ9Ed-b7QzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+}
+
+.c-content-card {
+	background-color: #ffffff;
+	border: 1px solid rgba(32, 47, 55, 0.1);
+	border-radius: 3px;
+	box-shadow: 0 1px 1px rgba(32, 47, 55, 0.1);
+	display: block;
+	margin-bottom: 36px;
+	overflow: hidden;
+	text-decoration: none;
+	width: 357px;
+	padding: 36px;
+}
+
+.o-block {
+	margin-bottom: 24px;
+	text-align: center;
+}
+
+.o-block__img {
+	margin-bottom: 24px;
+	display: block;
+	text-align: center;
+}
+
+.c-title-sub-section {
+	font-size: 19px;
+	font-size: 1.1875rem;
+	line-height: 28px;
+	font-family: 'Slabo 27px', serif;
+	font-weight: 600;
+	color: #3c485e;
+	margin: 0 0 12px;
+	text-align: center;
+}
+
+.u-margin-vertical {
+	margin-top: 24px !important;
+	margin-bottom: 24px !important;
+	display: block;
+}
+
+.c-title-tiny {
+	font-size: 12px;
+	font-size: 0.75rem;
+	line-height: 20px;
+	font-family: sans-serif;
+	font-weight: 500;
+	color: #39474e;
+	font-style: normal;
+	letter-spacing: 1px;
+	margin: 6px 0;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.c-divider {
+	border: 0;
+	border-bottom: 2px solid rgba(32, 47, 55, 0.05);
+	margin: 24px 0;
+}
+
+.c-list {
+	font-size: 14px;
+	font-size: 0.875rem;
+	line-height: 25px;
+	font-family: sans-serif;
+	font-weight: 400;
+	color: #849096;
+	list-style: none;
+	margin: 12px 0 24px;
+	padding: 0;
+}
+
+.c-btn {
+	font-family: sans-serif;
+	font-weight: 600;
+	font-size: 12px;
+	font-size: 0.75rem;
+	line-height: 2;
+	background-color: #4ec4cf;
+	border: 0 solid transparent;
+	border-radius: 3px;
+	cursor: pointer;
+	display: inline-block;
+	width: 100px;
+	letter-spacing: 1px;
+	padding: 12px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: none;
+	text-transform: uppercase;
+	vertical-align: middle;
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+}
+
+.c-btn, .c-btn:hover, .c-btn:visited, .c-btn:active, .c-btn:focus {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.c-paragraph {
+	font-size: 18px;
+	font-size: 1.125rem;
+	line-height: 30px;
+	font-family: sans-serif;
+	font-weight: 400;
+	color: #849096;
+	margin-bottom: 36px;
+	max-width: 620px;
+	text-align: center;
+}

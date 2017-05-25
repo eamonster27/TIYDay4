@@ -1,0 +1,186 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.nav-row {
+/*"About me" "f" "Contact me" nav bar at top*/
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+
+  list-style: none;
+
+  background-color: black;
+  padding: 20px;
+}
+
+.nav-item > a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Josefin Sans';
+  text-transform: uppercase;
+}
+
+.page-header {
+  /*background image of beer at top, with white background underneath.*/
+  background-image: url("../img/header-img.jpg");
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.header-content {
+/*"i Beer" main logo*/
+/*"write thirsty my friend"*/
+  display:flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  width: inherit;
+}
+
+.main-heading {
+  font-family: 'Josefin Sans';
+  font-size: 72px;
+}
+
+.sub-heading {
+ font-family: 'Dancing Script';
+ color: white;
+ font-size: 48px;
+ z-index: 1;
+}
+
+main {
+  /*content area with full tan background*/
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: beige;
+  align-content: space-between;
+  margin: 50px 50px 0px 50px;
+  transform: translateY(-150px);
+}
+
+.blog-row {
+  display: flex;
+  flex-flow: wrap column;
+  margin: 40px 40px 0px 100px;
+}
+
+.item {
+ /*four vertical sections on left in column format */
+ background-color: white;
+ margin: 10px;
+ display: flex;
+ flex-flow: column;
+ flex-wrap: wrap;
+ font-family: 'Josefin Sans';
+ border-color: grey;
+ border-width: thin;
+ border-style: groove;
+
+}
+
+
+#dino {
+  height: 250px;
+  width: 250px;
+  background: url("../img/dino.jpg") no-repeat center;
+  background-size: contain;
+}
+
+#xx {
+  height: 250px;
+  width: 250px;
+  background: url("../img/xx.png") no-repeat center;
+  background-size: contain;
+}
+
+#yhact-img {
+  height: 250px;
+  width: 250px;
+  background: url("../img/yhact.jpg") no-repeat center;
+  background-size: contain;
+}
+
+.meta {
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-between;
+  font-family: 'Josefin Sans';
+}
+
+.icon-wrapper {
+  display: flex;
+  justify-content: center;
+  border-bottom: solid 1px;
+}
+
+.fa-flask {
+  color: white;
+  background-color: beige;
+  border-radius: 100% 100%;
+}
+
+{
+  /*individual sections have identical upper detail sections*/
+}
+
+{
+  /*individual sections that have images are wrapped in text*/
+}
+
+aside {
+  /*aside vertically stacked column with picture at top and content below.*/
+  display: flex;
+  flex-flow: wrap column;
+  background-color: grey;
+  margin: 40px 80px 50px 0px;
+
+}
+
+.primary-txt {
+  padding: 10px 80px 10px 80px;
+  font-family: 'Josefin Sans';
+}
+
+.aside-heading {
+  align-self: center;
+  padding: 20px 0px 20px 0px;
+  border-bottom: solid black thin;
+  font-size: 30px;
+}
+
+.auth-pic {
+  background: url("../img/author.jpeg") no-repeat center;
+  background-size: contain;
+  align-self: center;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+
+}
+
+footer {
+  /*iblog 2017 at bottom*/
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
