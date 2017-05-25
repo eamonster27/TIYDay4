@@ -74,12 +74,14 @@ main {
   align-content: space-between;
   margin: 50px 50px 0px 50px;
   transform: translateY(-150px);
+  width: 90%;
 }
 
 .blog-row {
   display: flex;
   flex-flow: wrap column;
   margin: 40px 40px 0px 100px;
+  width: 50%;
 }
 
 .item {
@@ -102,6 +104,7 @@ main {
   width: 250px;
   background: url("../img/dino.jpg") no-repeat center;
   background-size: contain;
+  float: right;
 }
 
 #xx {
@@ -109,6 +112,7 @@ main {
   width: 250px;
   background: url("../img/xx.png") no-repeat center;
   background-size: contain;
+  float: right;
 }
 
 #yhact-img {
@@ -116,6 +120,7 @@ main {
   width: 250px;
   background: url("../img/yhact.jpg") no-repeat center;
   background-size: contain;
+  float: right;
 }
 
 .meta {
@@ -151,6 +156,7 @@ aside {
   flex-flow: wrap column;
   background-color: grey;
   margin: 40px 80px 50px 0px;
+  width: 50%;
 
 }
 
